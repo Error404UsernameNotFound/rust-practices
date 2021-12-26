@@ -1,0 +1,5 @@
+# MSVC Windows builds of rustc generate these, which store debugging information
+*.pdb
+
+# Without the use of Cargo, Rust apparently generates simple executable programs
+*.exe
